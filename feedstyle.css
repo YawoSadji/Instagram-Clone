@@ -1,0 +1,72 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(1, 6, 8);
+}
+h1{
+    display: block;
+    border: 3px solid rgb(199, 189, 189);
+    padding: 0;
+    margin-bottom: 0;
+}
+.header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid rgb(199, 189, 189);
+}
+.feed-container{
+    background-color: white;
+    width: 320px;
+    border: 1px solid #bbb8b8;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-pic{
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+}
+.username{
+   margin-left: 10px;
+}
+.username p{
+    margin: 0;
+    font-weight: bold;
+}
+.username span{
+    font-size: 12px;
+    color: gray;
+}
+.content{
+    position: relative;
+}
+.background-img{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #bbb8b8;
+}
+.text-overlay{
+    position: absolute;
+    bottom: 20px;
+    left:20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.footer{
+    padding: 10px;
+    font-size: 14px;
+}
+.footer p{
+margin: 5px 0;
+}
